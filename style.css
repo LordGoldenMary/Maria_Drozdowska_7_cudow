@@ -397,7 +397,7 @@ input[type="radio"] {
 }
 
 a{
-    color:#0000007d;
+    color:black;
     font-size: 20px;
     font-style:italic;
 }
@@ -438,4 +438,5 @@ a:visited{
     justify-content: center;
     align-items: center;
 }
+
 
