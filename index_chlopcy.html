@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chłopcy z Ferajny</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+          <header>
+        <h1 id="Gora">Chłopcy z Ferajny</h1>
+      </header>
+
+    <!-- Sidebar Navigation -->
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="index.html">Strona główna</a>
+      <a href="index_skazani.html">Skazani na Shawshank</a>
+      <a href="index_ojciec.html">Ojciec chrzestny</a>
+      <a href="index_forrest.html">Forrest Gump</a>
+      <a href="index_chlopcy.html">Chłopcy z Ferajny</a>
+      <a href="index_lot.html">Lot na kukułczym gniazdem</a>
+      <a href="index_dwunastu.html">Dwunastu gniewnych ludzi</a>
+      <a href="index_lord.html">Władca Pierścieni: Powrót Króla</a>
+    </div>
+
+    <div id="main">
+      <button class="openbtn" onclick="openNav()">☰ Menu</button>
+
+
+      <main>
+        <article class="card">
+          <img class="card-img" src="photo/chlopcy.webp" alt="Chłopcy z Ferajny">
+          <div class="card-body">
+            <h2>Opis filmu</h2>
+            <p>Film przedstawia prawdziwą historię Henry’ego Hilla, który od młodości marzył o życiu gangstera. Wchodzi w świat mafii, gdzie doświadcza luksusu, pieniędzy i władzy. Z czasem jednak jego życie zaczyna się rozpadać przez przemoc, narkotyki i zdrady. Obraz ukazuje brutalną prawdę o przestępczym świecie i nieuchronne konsekwencje takiego stylu życia.</p>
+            <p>Film przedstawia prawdziwą historię Henry’ego Hilla, który od młodości marzył o życiu gangstera. Wchodzi w świat mafii, gdzie doświadcza luksusu, pieniędzy i władzy. Z czasem jednak jego życie zaczyna się rozpadać przez przemoc, narkotyki i zdrady. Obraz ukazuje brutalną prawdę o przestępczym świecie i nieuchronne konsekwencje takiego stylu życia.</p>
+
+            <video class="card-video" controls playsinline poster="photo/chlopcy.webp">
+              <source src="video/chlopcy.mp4" type="video/mp4">
+              Twoja przeglądarka nie obsługuje elementu wideo.
+            </video>
+
+            <h3>Obsada</h3>
+            <table class="cast-table">
+              <tr>
+                <th>Aktor</th>
+                <th>Rola</th>
+              </tr>
+              <tr>
+                <td>Leonardo DiCaprio</td>
+                <td>Henry Hill</td>
+              </tr>
+              <tr>
+                <td>Robert De Niro</td>
+                <td>Jimmy Conway</td>
+              </tr>
+              <tr>
+                <td>Joe Pesci</td>
+                <td>Tommy DeVito</td>
+              </tr>
+              <tr>
+                <td>Ray Liotta</td>
+                <td>Karen Hill</td>
+              </tr>
+            </table>
+          </div>
+          <div class="film">
+<h3>Chłopcy z Ferajny (1990)</h3>
+<ul>
+    <li>Czas trwania: 146 min</li>
+    <li>Reżyseria: Martin Scorsese</li>
+    <li>Język oryginalny: angielski</li>
+    <li>Studio: Warner Bros.</li>
+    <li>Nagrody: 1 Oscar (Najlepszy aktor drugoplanowy)</li>
+        <li><a href = "https://www.filmweb.pl/film/Ch%C5%82opcy+z+ferajny-1990-10336">Więcej informacji na Filmweb</a></li>
+</ul>
+</div>
+<h3>Miejsce nagrań</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193597.01650363376!2d-74.14431219124575!3d40.69702432158221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNowy%20Jork%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1765723371787!5m2!1spl!2spl" width="1000px" height="510px" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+      </main>
+
+
+      <script>
+        function openNav() { document.getElementById('mySidebar').style.width = '250px'; document.getElementById('main').style.marginLeft = '250px'; }
+        function closeNav() { document.getElementById('mySidebar').style.width = '0'; document.getElementById('main').style.marginLeft = '0'; }
+      </script>
+    </div>
+    <a href ="#Gora">Powrót do góry</a>
+    <footer>
+  <p>Autor: Maria Drozdowska</p>
+  </footer>
+  </body>
+</html>
